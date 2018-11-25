@@ -3,8 +3,26 @@ body{
     width: 100%;
     margin: 0px;
     color: #f7f9fc;
+    font-size: 20px;
 }
-.header{
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1; 
+}
+
+.wrapper{
+    padding-left: 133px;
+    padding-right: 133px;
     background-image: linear-gradient(to bottom right, rgb(213, 218, 226), rgb(127, 134, 145));
 }
 
@@ -15,15 +33,46 @@ body{
     color: #1655ba;
 }
 
+a{
+    cursor: pointer;
+}
 .contact-address{
-    font-size: 20px;
+    
     text-align: center;
     font-weight: 500;
-    padding-bottom: 7px;
+    padding-bottom: 10px;
 }
 
 .line-break{
-    width: 1100px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 1098px;
     color: aliceblue;
     line-height: 3px;
+}
+
+.body-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    /* background-color: rebeccapurple; */
+}
+
+.info-wrapper{
+    width: 1000px;
+}
+
+.topic{
+    padding-top: 23px;
+    font-weight: 600;
+    float: left;
+    padding-right: 50px;
+}
+
+.float-left{
+    float: left;
+}
+
+.content{
+    float: left;
+    padding-top: 23px;
 }
