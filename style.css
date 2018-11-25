@@ -36,7 +36,6 @@ body{
     color: #1655ba;
 }
 
-<<<<<<< HEAD
 .contact-address{
     font-size: 20px;
     text-align: center;
@@ -48,7 +47,6 @@ body{
     width: 1100px;
     color: aliceblue;
     line-height: 3px;
-=======
 a{
     cursor: pointer;
 }
@@ -129,5 +127,4 @@ i {
 
 .footer{
     text-align: center;
->>>>>>> body-design
 }
