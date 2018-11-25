@@ -51,28 +51,29 @@ a{
     line-height: 3px;
 }
 
-.body-container{
-    padding-left: 100px;
-    padding-right: 100px;
-    /* background-color: rebeccapurple; */
-}
-
 .info-wrapper{
     width: 1000px;
+}
+
+.wrapper1{
+    margin-left: 100px;
+    /* margin-right: 100px; */
 }
 
 .topic{
     padding-top: 23px;
     font-weight: 600;
     float: left;
-    padding-right: 50px;
+    /* padding-right: 35px; */
+    height: 121px;
+    width: 134px;
 }
 
-.float-left{
-    float: left;
+
+.list-type{
+    list-style-type: none;
 }
 
 .content{
-    float: left;
     padding-top: 23px;
 }
