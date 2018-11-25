@@ -23,6 +23,7 @@ body{
 .wrapper{
     padding-left: 133px;
     padding-right: 133px;
+    height: 1750px;
     background-image: linear-gradient(to bottom right, rgb(213, 218, 226), rgb(127, 134, 145));
 }
 
@@ -57,18 +58,38 @@ a{
 
 .wrapper1{
     margin-left: 100px;
-    /* margin-right: 100px; */
 }
 
 .topic{
     padding-top: 23px;
     font-weight: 600;
+    font-size: 24px;
     float: left;
-    /* padding-right: 35px; */
     height: 121px;
-    width: 134px;
+    width: 154px;
 }
 
+.topic3{
+    padding-top: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    float: left;
+    height: 265px;
+    width: 154px;
+}
+
+.topic4{
+    padding-top: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    float: left;
+    height: 193px;
+    width: 154px;
+}
+
+.float-right{
+    float: right;
+}
 
 .list-type{
     list-style-type: none;
@@ -76,4 +97,21 @@ a{
 
 .content{
     padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+i {
+    padding-left: 116px;
+}
+
+.electives{
+    padding-left: 116px;
+}
+
+.electives{
+    padding-left: 116px;
+}
+
+.footer{
+    text-align: center;
 }
