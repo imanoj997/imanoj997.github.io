@@ -47,6 +47,8 @@ body{
     width: 1100px;
     color: aliceblue;
     line-height: 3px;
+}
+
 a{
     cursor: pointer;
 }
