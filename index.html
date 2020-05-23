@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <title>Manoj Bhatt - CV</title>
-</head>
 
-<body>
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+{% endblock styles %}
+
+{% block title %}
+    Manoj Bhatt - CV
+{% endblock %}
+
+{% block content %}
     <div class="wrapper">
         <div class="header">
             <div class="title">
@@ -149,6 +149,4 @@
             &copy; Manoj Bhatt, 2018
         </div>
     </div>
-</body>
-
-</html>
+{% endblock %}

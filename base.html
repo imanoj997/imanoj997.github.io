@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Manoj Bhatt {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    {% block styles %}
+    {% endblock styles %}
+        
+</head>
+<body>
+    <!--This is navigation area-->
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer>
+
+        <p id="copyright">Copyright &copy; Manoj Bhatt | 2020</p>
+
+    </footer>
+</body>
+</html>
